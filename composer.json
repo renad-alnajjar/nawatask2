@@ -1,0 +1,14 @@
+{
+    "name": "abood/test",
+    "description": "PHP examples",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abood\\Test\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/intl": "^6.3"
+    }
+}
